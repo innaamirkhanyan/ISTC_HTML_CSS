@@ -1,0 +1,140 @@
+/* Include the padding and border in an element's total width and height */
+* {
+    box-sizing: border-box;
+  }
+  
+h1, h2, h3, h4, h5, h6, p, li{
+    font-family: Arial, Helvetica, sans-serif
+} 
+  .parent{
+      width: 20%;
+      margin: auto;
+      padding-top: 200px;
+      border-color: #555;
+      border-radius: 5px
+   
+  }
+
+.block1{
+    border: 0.5px solid #bbb;
+
+}
+  /* Remove margins and padding from the list */
+  ul {
+    margin: 0;
+    padding: 0;
+
+  }
+  
+  /* Style the list items */
+  ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: #ffffff;
+    font-size: 18px;
+    transition: 0.2s;
+    list-style-type: none;
+  
+    /* make the list items unselectable */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border-bottom: 0.5px solid #bbb;
+  }
+  
+  
+  }
+  /* Darker background-color on hover */
+  ul li:hover {
+    background: #ddd;
+  }
+  
+  /* When clicked on, add a background color and strike out text */
+  ul li.checked {
+    color: #34bf6e;
+    text-decoration: line-through;
+  }
+  
+  /* Add a "checked" mark when clicked on */
+  ul li.checked::before {
+    content: '';
+    position: absolute;
+    border-color: #34bf6e;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 10px;
+    left: 16px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+  }
+  
+  /* Style the close button */
+  .close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+  }
+  
+  .close:hover {
+    background-color: #34bf6e   ;
+    color: white;
+  }
+  
+  /* Style the header */
+  .header {
+    background-image: linear-gradient(#fbfbfb, #e5e5e5);
+    
+    color: #2b2b2b;
+    text-align: left;
+   
+  }
+  
+  .header h3{
+      padding-top: 13px;
+      padding-left: 10px;
+      margin: 0;
+      padding-bottom: 13px
+  }
+  /* Clear floats after the header */
+  .header:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the input */
+  input {
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    width: 75%;
+    padding: 10px;
+    float: left;
+    border: 0.5px solid #bbb;
+    font-size: 15px
+
+    
+  }
+  
+  /* Style the "Add" button */
+  .addBtn {
+    padding: 10px;
+    width: 25%;
+    background: #34bf6e;
+    color: #ffffff;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+  }
+  
+  .addBtn:hover {
+    background-color: #bbb;
+  }

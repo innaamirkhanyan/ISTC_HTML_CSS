@@ -1,0 +1,226 @@
+
+        html, body{
+            margin: 0;
+            padding: 0;
+
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+    font-family: "Open Sans", Arial, sans-serif;
+    color: #444444;
+    text-align: center
+}
+
+        .site-parent{
+            background-color: bisque;
+            width: 100%;
+            height: 100%;
+            margin: auto;
+            align-content: center;
+            position: absolute;
+        
+
+        }
+
+        .chd1{
+            height: 50%;    
+            background-image: url("slider-image.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            display: block
+
+
+        }
+        
+        .chd1 h1, p, a{
+            text-align: center;
+            font-family: sans-serif;
+            color: white;
+            text-transform: uppercase;
+            text-decoration: none;
+
+        }
+
+        .social-icons{
+            width: 15%;
+            margin: auto;
+            box-sizing: border-box;
+            position: relative;
+            top:20px;
+            padding: 3% 
+        }
+        
+        .social-icons a{
+           color: #1b1b19;
+           background: white;
+           border-radius: 50%;
+           font-size: 10px;
+           padding: 10px;
+           text-decoration: none;
+         
+           
+            /* width: 5%;
+            height: 5%; */  
+
+        }
+
+.main-header{
+    
+    width: 80%;
+    margin: 0 auto;
+    z-index: 1000;
+    top: 94px;
+
+}
+
+.menu-wrapper{
+    background-color: white;
+    overflow: hidden;
+  
+}
+
+.row{
+    
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo-wrapper{
+    background-image: url("Flex-logo.PNG");
+    height: 100px;
+    background-repeat:no-repeat;
+    padding: 0 30% 0 0;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+
+}
+
+.logo-wrapper a{
+    color: red;
+    text-decoration: none;
+    list-style: none;
+    padding: 0 0 0 114px;
+
+}
+
+.toggle-menu{
+    position: absolute;
+    right: 11%;
+}
+
+.toggle-menu ul{
+  margin: 0px;
+  vertical-align:top;
+list-style: none;
+  float: right;
+  display: flex;
+  text-align: right;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+
+}
+
+.toggle-menu a{
+    color: gray;
+    list-style: none;
+    text-decoration: none;
+    margin: 0 15px 0 0;
+    display: block;
+}
+
+.slider-btn{
+    color: white;
+    background-color: #ec523f;
+    padding: 12px 20px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: 700;
+     box-sizing: border-box;
+     top: 15px
+}
+
+.slider-button{
+    margin: auto;
+    width: 234px;
+    padding-top: 22px;
+}
+
+
+.chd2{
+    padding-top: 60px
+
+}
+
+.heading-section{
+    width: 70%;
+    margin: auto
+}
+
+.heading-section h2 {
+    font-size: 28px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.heading-section p{
+    color: black
+}
+
+.boxes .fa {
+   display: inline-block;
+   line-height: 1;
+   color: white;
+   font-size: 40px;
+}
+.boxes {
+   display: flex;
+   justify-content: center;
+   margin-top: 3%;
+}
+.box1 {
+   background-color: #1abc9c;
+    padding: 100px;
+   margin-left: 1.5%;
+}
+.box2 {
+   background-color: #e67f22;
+   padding: 100px;
+   margin-left: 1.5%;
+}
+.box3 {
+   background-color: #3598db;
+   padding: 100px;
+   margin-left: 1.5%;
+}
+.box4 {
+   background-color: #2dcc72;
+   ;
+   padding: 100px;
+   margin-left: 1.5%;
+} 
+  
+.heading-section2 h2 {
+    font-size: 28px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.heading-section2 p{
+    color: black
+}
+
+.pictures{
+   display: flex;
+}
+
+.pic1{
+    background-image: url(p1.jpg)
+}
+  

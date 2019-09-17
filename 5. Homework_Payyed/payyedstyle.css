@@ -1,0 +1,68 @@
+html, body{
+   
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+.parent{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap
+}
+.leftChild{
+    width: 50vw;
+    height: 100vh;
+    background-image: url(http://demo.harnishdesign.net/html/payyed/images/bg/image-3.jpg);
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover
+
+
+
+}
+
+.img-color{
+    background-color: #2dbe60;
+    opacity: 0.8;
+    z-index: 1;
+    height: 100vh;
+    width: 50vw;
+}
+
+.img-color{
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; */
+
+
+}
+
+.text {
+    padding-top: 35%;
+    padding-left: 20%;
+    color: #fff;
+    font-family: "Rubik", sans-serif;;
+    font-size: 2rem
+}
+
+.text p{
+    color: #fff;
+    font-family: "Rubik", sans-serif;;
+    font-size: 1.2rem
+}
+
+.text{
+    width: 70%;
+}
+
+.logo{
+    
+    justify-self: start;
+    display: flex;
+    padding-top: 10px;
+    padding-left: 20%;
+}
