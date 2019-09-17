@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ninja Game</title>
+    
+    <style>
+    html, body {
+                width : 100%;
+                height : 100%;
+                margin : 0;
+        }
+
+
+    .parent{
+            width : 100%;
+            height : 100%;
+            background-image: linear-gradient(#51b8a3, #53d5a5); /* Standard syntax (must be last) */
+
+        }
+
+    .child {
+        width: 20%;
+        background: yellow;
+        margin: auto;
+        position:relative;
+        top: 50%;
+        transform: translateY(-50%);
+        padding : 3% 2% 2% 2%;
+        box-sizing: border-box;
+    }
+
+            
+    h1 {
+    text-align: center;
+    color: white;
+    margin-top:0;
+    }
+
+    .input-wrapper {
+            width:100%;
+            padding:2% 5%;
+            box-sizing:border-box;
+            
+    }
+
+    
+            
+    input {
+        display: block;
+        width: 100%;
+        border:1px solid  #fff;
+        border-radius: 5px;
+        outline : none;
+        text-align: center;
+        background: #74ccb6;
+        font: 20px Arial;
+        padding: 3% 0%;
+        color: white;
+        margin-bottom: 2%;  
+    
+
+    }
+
+    input#password {
+        width: 100%;
+        
+
+    }
+
+    input::placeholder{
+    color:white
+    }
+
+       
+    button {
+    display: block;
+    text-align: center;
+    border-color: white;
+    border-style: solid;
+    border-radius: 5px;
+    background: white;
+    padding: 5%;
+    color:#53d5a5;
+    width: 100%;
+    
+     }
+        
+button:hover {
+    opacity: 0.8;
+}
+
+</style>
+    </head>
+    
+	    <body>
+    <div class="parent">
+        <div class="child">
+            <h1>Welcome</h1>
+                <div class = "input-wrapper" > 
+                        <input type="text" name="user" id="username" placeholder="Username" required >
+                        <input type="text" name="password" id="password" placeholder="Password" required >
+                        <button type="submit" id = "button">Login</button>
+            
+                </div>
+        </div>
+    </div>  
+    </body>
+    </html>
+       
+
+   
